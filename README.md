@@ -74,7 +74,7 @@ The model used in this application is a Convolutional Neural Network (CNN) train
 Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE] file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Akshint0407/Plant-Disease-Detection-System/blob/main/LICENSE) file for details.
 
 
 
