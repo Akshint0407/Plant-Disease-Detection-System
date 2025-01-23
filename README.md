@@ -29,10 +29,6 @@ The CNN model achieved an accuracy of **90.97%** on the validation set, indicati
 ### Prerequisites
 Ensure you have Python 3.7 or higher installed on your machine.
 
-## Features
-- **Image Upload**: Users can upload images of plants in various formats (JPEG, PNG).
-- **Disease Prediction**: The application uses a pre-trained Convolutional Neural Network (CNN) model to predict plant diseases.
-- **User-Friendly Interface**: A simple and intuitive interface built with Streamlit.
 
 ## Technologies Used
 - **Python**: The programming language used for the application.
