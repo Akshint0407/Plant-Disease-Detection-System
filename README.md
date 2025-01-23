@@ -19,7 +19,7 @@ The project is organized into several key components:
 - **datasets/**: A directory containing any additional datasets used in training or evaluation.
 
 ## Datasets
-The model was trained using a dataset sourced from Kaggle. You can find the dataset [here](https://www.kaggle.com/datasets/](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data).
+The model was trained using a dataset sourced from Kaggle. You can find the dataset [here](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data).
 
 ### Model Performance
 The CNN model achieved an accuracy of **90.97%** on the validation set, indicating its high effectiveness in classifying plant diseases.
