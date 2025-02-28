@@ -1,7 +1,7 @@
 streamlit
 tensorflow>=2.0.0
 numpy
-opencv
+opencv-python
 pillow
 scikit-learn 
 matplotlib
