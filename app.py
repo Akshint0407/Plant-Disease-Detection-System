@@ -95,7 +95,6 @@ elif app_mode == "DISEASE RECOGNITION":
                 "Tomato___healthy"
             ]
 
-    # Show the prediction result
     # Logic for healthy vs infected
         if result_index == 3 or result_index == 4 or result_index == 6 or result_index == 8 or result_index == 12 or result_index == 13 or result_index == 15 or result_index == 17 or result_index == 19 or result_index == 21 or result_index == 23 or result_index == 25 or result_index == 27 or result_index == 29 or result_index == 31:  # Healthy plant indexes
             st.success(f"Congratulations! Your plant does not have any disease!!")
