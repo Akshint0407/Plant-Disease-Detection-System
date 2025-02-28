@@ -34,14 +34,6 @@ st.sidebar.title("Plant Disease Detection System for Sustainable Agriculture")
 app_mode = st.sidebar.selectbox("Select Page", ["HOME", "DISEASE RECOGNITION"])
 # app_mode = st.sidebar.selectbox("Select Page",["Home"," ","Disease Recognition"])
 
-# import Image from pillow to open images
-from PIL import Image
-
-img = Image.open(r"C:\Users\akshi\Downloads\AppleCedarRust1.JPG")
-
-# display image using streamlit
-
-st.image(img)
 
 # Main Page
 if app_mode == "HOME":
@@ -64,7 +56,7 @@ elif app_mode == "DISEASE RECOGNITION":
             f.write(test_image.getbuffer())
 
     if st.button("Show Image"):
-        st.image(test_image, width=4, use_column_width=True)
+        st.image(test_image, width=4, use_container_width =True)
 
     # Predict button
     if st.button("Predict"):
