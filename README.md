@@ -1,5 +1,5 @@
 # Plant Disease Detection System
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-blue)](https://streamlit.io/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-App-blue)](https://plant-disease-detection-system-gbcndh3oszdff8sg7hx9pa.streamlit.app/)
 
 ## Overview
 The Plant Disease Detection System is a web application designed to help farmers and agricultural enthusiasts identify plant diseases quickly and accurately. Utilizing a Convolutional Neural Network (CNN) model trained on a diverse dataset of plant images, this application provides predictions based on user-uploaded images. The model achieved an impressive accuracy of **90.97%**, demonstrating its effectiveness in classifying various plant diseases.
