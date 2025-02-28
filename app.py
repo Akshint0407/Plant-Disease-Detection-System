@@ -42,6 +42,53 @@ app_mode = st.sidebar.selectbox("Select Page", ["HOME", "DISEASE RECOGNITION"])
 # Import Image from pillow to open images
 from PIL import Image
 
+# Add a background image
+def add_background(image_url):
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url({image_url});
+            background-size: cover;
+            background-position: center;
+            color: white;  /* Change text color to white for better visibility */
+        }}
+        .popup {{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.9); /* Black background */
+            border-radius: 10px;
+            padding: 20px;
+            z-index: 1000;
+            color: white; /* White text */
+        }}
+        .popup h4 {{
+            margin-top: 0;
+        }}
+        .button-container {{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }}
+        .button {{
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent button */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            cursor: pointer;
+            margin-left: 5px; /* Space between buttons */
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+# Replace with your new static image URL
+add_background("https://plus.unsplash.com/premium_photo-1663962158789-0ab624c4f17d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cGxhbnRzfGVufDB8fDB8fHww")
+
 # Main Page
 if app_mode == "HOME":
     st.markdown(
