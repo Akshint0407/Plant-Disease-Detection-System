@@ -23,7 +23,7 @@ The project is organized into several key components:
 The model was trained using a dataset sourced from Kaggle. You can find the dataset [here](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data).
 
 ### Model Performance
-The CNN model achieved an accuracy of **90.97%** on the validation set, indicating its high effectiveness in classifying plant diseases.
+The CNN model achieved an accuracy of **93.34%** on the validation set, indicating its high effectiveness in classifying plant diseases.
 
 ## Installation
 
